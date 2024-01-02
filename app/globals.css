@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom right, #008080, #008000, #00FF00);
+}
+
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 443px;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-images img {
+  max-width: 300px;
+  height: 443px;
+  border-radius: 8px;
+  /* border: #ff00008e solid 2px; */
+}
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left,
+.right {
+  background-color: #fb666675;
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #fa2020;
 }
