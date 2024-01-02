@@ -85,7 +85,6 @@ const Survey: React.FC = () => {
 
     if (response.ok) {
       const content = await response.json();
-      alert(content.data.tableRange);
 
       // Assuming setName is a function to reset the state
     } else {
@@ -182,7 +181,7 @@ const Survey: React.FC = () => {
                 value={email}
                 id="email"
                 onChange={handleEmailChange}
-                className="w-[100%] p-3 border-green-500 text-white rounded-md shadow-md focus:outline-none focus:border-green-700 "
+                className="w-[100%] p-3 border-green-500 rounded-md shadow-md focus:outline-none focus:border-green-700 "
                 placeholder="Email"
               />
             </div>
@@ -224,7 +223,7 @@ const Survey: React.FC = () => {
                 value={feature}
                 id="feature"
                 onChange={handleFeature}
-                className="w-[100%] p-3 border-green-500 text-white rounded-md shadow-md focus:outline-none focus:border-green-700 "
+                className="w-[100%] p-3 border-green-500 rounded-md shadow-md focus:outline-none focus:border-green-700 "
                 placeholder="Features you like"
               />
             </div>

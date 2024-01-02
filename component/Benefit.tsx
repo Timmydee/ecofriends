@@ -18,7 +18,7 @@ const Benefit = () => {
           {/* Benefit 1 */}
           <div className="flex items-center justify-center flex-col max-w-[300px] mb-4 lg:mb-8 lg:mr-4 bg-gray-200 rounded-lg p-5 shadow-lg transition duration-300 hover:bg-gray-300">
             <div className="max-w-300px h-auto">
-              <Image src="/show3.webp" width={200} height={100} alt="Wide Selection" />
+              <Image src="/benefit1.png" width={200} height={100} alt="Wide Selection" />
             </div>
 
             <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>Wide Selection</h5>
@@ -31,7 +31,7 @@ const Benefit = () => {
           {/* Benefit 2 */}
           <div className="flex items-center justify-center flex-col max-w-[300px] mb-4 lg:mb-8 lg:mr-4 bg-gray-200 rounded-lg p-5 shadow-lg transition duration-300 hover:bg-gray-300">
             <div>
-              <Image src="/show2.webp" width={200} height={200} alt="High Quality" />
+              <Image src="/benefit2.png" width={200} height={200} alt="High Quality" />
             </div>
 
             <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>High Quality</h5>
@@ -43,7 +43,7 @@ const Benefit = () => {
           {/* Benefit 3 */}
           <div className="flex items-center justify-center flex-col max-w-[300px] mb-4 lg:mb-8 lg:mr-4 bg-gray-200 rounded-lg p-5 shadow-lg transition duration-300 hover:bg-gray-300">
             <div>
-              <Image src="/show3.webp" width={200} height={200} alt="Eco-friendly Practices" />
+              <Image src="/benefit3.png" width={200} height={200} alt="Eco-friendly Practices" />
             </div>
 
             <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>Eco-friendly</h5>

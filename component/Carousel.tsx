@@ -7,12 +7,12 @@ import { slides } from "googleapis/build/src/apis/slides";
 
 const images = [
   "/show1.webp",
-  "/show3.webp",
-  "/show4.webp",
-  "/show5.webp",
-  "/show6.webp",
-  "/show7.webp",
-  "/show8.webp",
+  "/show2.webp",
+  "/show3.jpg",
+  "/show4.jpg",
+  "/show5.jpg",
+  "/show9.webp",
+  "/show12.jpg",
 ];
 
 const Carousel: React.FC = () => {
