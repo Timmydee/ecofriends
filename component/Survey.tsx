@@ -94,8 +94,8 @@ const Survey: React.FC = () => {
   };
 
   return (
-    <div className="w-full py-6 bg-gray-200">
-      <div className="w-full flex flex-col lg:flex-row justify-evenly items-center">
+    <div id='survey' className="w-full py-6 bg-gray-200">
+      <div className="w-full flex flex-col lg:flex-row justify-evenly items-center space-y-6">
         <form
           onSubmit={handleSubmit}
           className="bg-gray-100 p-8 rounded-lg shadow-md max-w-xl"
