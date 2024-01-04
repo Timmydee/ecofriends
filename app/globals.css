@@ -18,7 +18,7 @@ body {
   overflow: hidden;
 }
 .carousel-images img {
-  max-width: 300px;
+  max-width: 400px;
   height: 443px;
   border-radius: 8px;
   /* border: #ff00008e solid 2px; */

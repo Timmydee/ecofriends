@@ -19,7 +19,7 @@ const Hero = () => {
     </div>
     
     <div className="lg:px-[54px] px-[34px] pt-4 pb-[17px] mt-2 cursor-pointer bg-yellow-400 hover:bg-yellow-500 rounded-lg justify-center items-center inline-flex">
-      <Link href="/survey" className="text-green-800 text-[16px] lg:text-[18px] font-medium font-roboto">
+      <Link href="#survey" className="text-green-800 text-[16px] lg:text-[18px] font-medium font-roboto">
         Take the survey
       </Link>
     </div>
