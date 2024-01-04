@@ -5,6 +5,9 @@ import Navbar from '@/component/Navbar'
 import GoogleAnalytics from '@/component/GoogleAnalytics'
 import Footer from '@/component/Footer'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const header = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -26,6 +29,7 @@ export default function RootLayout({
           ) : null}
       <div>
           <Navbar />
+          <ToastContainer />
           {children}
           <Footer />
         </div>

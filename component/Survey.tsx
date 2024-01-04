@@ -2,6 +2,9 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import Image from "next/image";
 import Carousel from "./Carousel";
+import { toast } from "react-toastify";
+// import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 interface FormData {
   email: string;
@@ -70,9 +73,9 @@ const Survey: React.FC = () => {
       interest,
       feature,
     };
-
-    console.log("Form Data", formData);
-    alert(formData);
+    toast.success("Green gratitude, thank you for your input.")
+    // console.log("Form Data", formData);
+    // alert(formData);
 
     const response = await fetch("api/submit", {
       method: "POST",
@@ -89,7 +92,7 @@ const Survey: React.FC = () => {
       // Assuming setName is a function to reset the state
     } else {
       // Handle error if the response status is not OK (e.g., response.status !== 200)
-      console.error("Error in form submission");
+      // console.error("Error in form submission");
     }
   };
 
