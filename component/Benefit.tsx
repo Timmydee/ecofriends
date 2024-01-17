@@ -21,7 +21,7 @@ const Benefit = () => {
               <Image src="/benefit2.png" width={200} height={100} alt="Wide Selection" />
             </div>
 
-            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>Wide Selection</h5>
+            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-600`}>Wide Selection</h5>
             <p className={`${styles.pStyle} text-center text-sm lg:text-base text-gray-700`}>
               Explore a diverse range of eco-friendly products, carefully
               curated to suit your sustainable lifestyle.
@@ -34,7 +34,7 @@ const Benefit = () => {
               <Image src="/benefit1.png" width={200} height={100} alt="High Quality" />
             </div>
 
-            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>High Quality</h5>
+            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-600`}>High Quality</h5>
             <p className={`${styles.pStyle} text-center text-sm lg:text-base text-gray-700`}>
               Our marketplace is committed to providing you with products of the highest quality.
             </p>
@@ -46,7 +46,7 @@ const Benefit = () => {
               <Image src="/benefit3.png" width={200} height={100} alt="Eco-friendly Practices" />
             </div>
 
-            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-500`}>Eco-friendly</h5>
+            <h5 className={`${styles.h5Style} mt-6 text-l lg:text-xl font-bold text-green-600`}>Eco-friendly</h5>
             <p className={`${styles.pStyle} text-center text-sm lg:text-base text-gray-700`}>
               Choose with confidence, knowing that each product is sourced and produced with the environment in mind.
             </p>

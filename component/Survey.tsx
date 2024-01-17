@@ -98,7 +98,7 @@ const Survey: React.FC = () => {
 
   return (
     <div id='survey' className="w-full py-6 bg-gray-200">
-      <div className="w-full flex flex-col lg:flex-row justify-evenly items-center space-y-12">
+      <div className="w-full flex flex-col justify-evenly items-center space-y-12">
         <form
           onSubmit={handleSubmit}
           className="bg-gray-100 p-8 rounded-lg shadow-md max-w-xl"
@@ -108,7 +108,7 @@ const Survey: React.FC = () => {
           <div className="mb-6">
             <label
               htmlFor="product-interest"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-gray-700 font-medium mb-2"
             >
               What types of sustainable products are you interested in?
             </label>
@@ -130,7 +130,7 @@ const Survey: React.FC = () => {
           <div className="mb-6">
             <label
               htmlFor="shopping-frequency"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-gray-700 font-medium mb-2"
             >
               How often do you shop for eco-friendly products?
             </label>
@@ -151,7 +151,7 @@ const Survey: React.FC = () => {
           <div className="mb-6">
             <label
               htmlFor="shoppingFactor"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-gray-700 font-medium mb-2"
             >
               What factors are most important to you when choosing sustainable
               products?
@@ -172,7 +172,7 @@ const Survey: React.FC = () => {
           </div>
 
           <div className="mb-6">
-            <label className="block text-gray-700 font-bold mb-2">
+            <label className="block text-gray-700 font-medium mb-2">
               Would you be interested in receiving updates about our sustainable
               marketplace and its launch? If yes, please provide your email
               address.
@@ -193,7 +193,7 @@ const Survey: React.FC = () => {
           <div className="mb-6">
             <label
               htmlFor="interest"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-gray-700 font-medium mb-2"
             >
               How likely are you to explore and make a purchase on a marketplace
               dedicated to sustainable living?
@@ -215,7 +215,7 @@ const Survey: React.FC = () => {
           </div>
 
           <div className="mb-6">
-            <label className="block text-gray-700 font-bold mb-2">
+            <label className="block text-gray-700 font-medium mb-2">
               What specific features or products would make your sustainable
               shopping experience exceptional?
             </label>
@@ -292,13 +292,15 @@ const Survey: React.FC = () => {
             </label>
           </div> */}
 
-          <button className="bg-green-500 text-white py-2 px-4 rounded-md focus:outline-none hover:bg-green-600">
+          <div className="flex items-center justify-center">
+          <button className="bg-green-600 text-white py-2 px-4 rounded-md focus:outline-none hover:bg-green-600">
             Submit
           </button>
+          </div>
         </form>
 
         <div className="flex items-center justify-center">
-          <Carousel />
+          {/* <Carousel /> */}
           {/* <Image
             src="/show1.webp"
             width={400}

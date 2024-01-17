@@ -14,7 +14,7 @@ const Hero = () => {
       {/* Join us in Creating a Greener  */}
       </h2>
       <p className="lg:w-[532px] text-[18px] md:text-[24px] font-open-sans font-normal w-[100%] lg:text-start text-center my-3">
-      We aim to connect conscious shoppers with passionate makers, offering sustainable products that tell a story of hope and responsibility.
+      We aim to connect conscious shoppers with sustainability makers, offering sustainable products that tell a story of hope and responsibility.
       </p>
     </div>
     
