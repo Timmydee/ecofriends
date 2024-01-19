@@ -23,7 +23,7 @@ const imagesArrays = [
     "/eco6.webp",
     "/show15.webp",
     "/show2.webp",
-    "/show4.webp",
+    "/show4.jpg",
     "/show14.webp",
   ],
   [
