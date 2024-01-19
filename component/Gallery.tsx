@@ -9,14 +9,11 @@ const imagesArrays = [
     "/show18.webp",
     "/show17.webp",
     "/show16.webp",
-    "/show22.webp",
+    "/show22.webp", 
     "/green1.webp",
-    // "/green2.webp",
     "/green3.webp",
     "/green4.webp",
     "/green5.webp",
-    // "/green6.webp",
-    
   ],
   [
 
@@ -26,6 +23,8 @@ const imagesArrays = [
     "/eco6.webp",
     "/show15.webp",
     "/show2.webp",
+    "/show4.webp",
+    "/show14.webp",
   ],
   [
     "/show16.webp",
@@ -40,7 +39,6 @@ const imagesArrays = [
     "/eco6.webp",
     "/show17.webp",
     "/show16.webp",
-
   ],
 ];
 

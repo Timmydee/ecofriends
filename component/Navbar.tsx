@@ -73,13 +73,13 @@ const Navbar = () => {
                 className="mt-6 text-center"
                 onClick={handleClick}
               >
-                <Link href="/tracker">Tracker</Link>
+                <Link href="/tracker">Marketplace</Link>
               </div>
               <div
                 className="mt-6 text-center"
                 onClick={handleClick}
               >
-                <Link href="/about">Our Services</Link>
+                <Link href="/about">Contacts</Link>
               </div>
             </div>
           </div>
